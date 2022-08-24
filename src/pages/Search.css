@@ -1,0 +1,43 @@
+.input1{
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+}
+.input1 > input{
+    flex: 1;
+    padding: 10px 20px;
+    font-size: medium;
+    border: none;
+}
+.input1 > input:focus{
+    outline-width: 0;
+}
+.icon{
+    color: rgb(7, 7, 123);
+}
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.buttons button{
+    margin: 5px;
+    padding: 7px 15px;
+    color: rgb(13, 13, 135);
+    border: 1px solid white;
+    text-transform: inherit;
+}
+.buttons button:hover{
+    background-color: rgb(13, 13, 135);
+    color: white;
+}
+.hidden{
+    display: none !important;
+}
